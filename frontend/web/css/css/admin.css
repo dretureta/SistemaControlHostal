@@ -1,0 +1,636 @@
+/**
+ * admin css.
+ *
+ * @package    autos
+ * @subpackage admin
+ * @author     Eriot Alberto Cruz Ramos
+ * @version    1.0
+*/
+
+/* RESET */
+@charset "UTF-8";
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: 9pt Arial, Verdana, Sans-Serif;
+	background: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #2489DB;
+}
+
+a:hover {
+	color: #808080;
+}
+
+a img {
+	border: 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin: 0 0 5px 0;
+	padding: 2px 0px 0px 0px;
+}
+
+.red { color: red; }
+
+#subtitulo h1{
+	font:bold 15px Tahoma, Arial, Helvetica, sans-serif;
+	padding:10px 0 5px 0;	
+	background:transparent url(../images/px_puntos_h.gif) repeat-x scroll 0pt 100%;			
+	color:#2489DB;
+	margin-bottom:10px;
+	text-transform:none;
+}
+
+#bg { 
+	width: 760px;
+	margin: 0 auto;
+	padding: 5px 10px 10px 10px;
+	background: url(../images/bg.gif) top left no-repeat;
+}
+	
+
+#login {
+	width: 625px;
+	height:390px;
+	margin: 0px auto;
+	background:url(../images/iniciar-sesion.jpg) no-repeat; 
+}
+		
+.text_login{
+	color:#FF0000; !important;
+	font-weight:bold;	
+}
+		
+.text_login_encabezado{
+	color:#817028;
+	font-weight:bold;
+	padding-left:25px;
+	cursor:pointer;
+}
+		
+.tb_login input{
+	border:1px solid #666666;
+}
+		
+.tb_login input:hover{
+	border:1px solid #000000;
+	cursor:pointer;
+}
+		
+.tb_login #error input {
+	border:1px solid #FF0000;
+}	
+
+#sadrzaj {
+	padding: 0;
+	margin: 0px auto;		
+	width: 1024px;
+	height: auto;	
+}
+
+#toplinks {
+	height: 20px;
+	background: #2489DB;
+	text-align: right;
+	padding-right: 10px;	
+	padding-top: 5px;
+}
+
+#toplinks a {
+	font-size: 8pt;
+	display: inline;
+	padding-left: 8px;
+	padding-right: 5px;
+	background: url(../images/strelica.gif) left no-repeat;
+	padding-bottom: 3px;
+	margin-right: 5px;
+	color: #fff;
+}
+
+#toplinks a:hover {
+	border-bottom: 2px solid #fff;	
+}
+
+#zaglavlje {
+	clear: both;
+	margin: 0px 0 5px 0;
+	height: 70px;
+	background: url(../images/header.gif) repeat-x;
+}
+
+#title {
+	float: left;
+	font-size: 14pt;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-left: 5px;
+}
+
+#title_info {
+	float: right;
+	height: auto;
+	padding: 8px;
+	width: 310px;
+	margin: 10px 5px 0 0;
+	border: 2px solid #fff;	
+	background: #FFF5D9;
+	color: #808080;
+}
+
+#title_info p {
+	margin: 0;
+}
+
+#navigacija {
+	clear: left;
+	float: left;
+	width: 155px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+#navigacija ul {	
+	list-style: none;
+	width: 175px;
+	margin: 0 0 3px 0;
+	padding: 0;
+	font-size: 1.1em;
+}	
+
+#navigacija li {
+	margin-bottom: 4px;
+}
+
+#navigacija li a, #navigacija li a:visited {
+	text-align: right;
+	height: 30px;
+	text-decoration: none;
+	font: bold 12px Verdana, Helvetica, sans-serif;
+	color: #fff;
+	display: block;
+	padding: 6px 8px 0 10px;
+	background: #4FA7FF;
+}	
+	
+#navigacija li a:hover {
+	background: #A9CAEB;
+	color: #286ea0;
+}
+
+.lijevo {
+	margin: 2px 0 10px 0;
+	padding: 3px 10px 5px 10px;
+	width: 130px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	color: #6B6B6B;
+	background: #eee url(../images/lijevo.gif) repeat-x;
+}
+
+.lijevo a, .lijevo a:visited {
+	text-decoration: underline;
+}
+
+#desna_rubrika {
+	float: right;
+	width: 223px;
+	margin: 0 0 10px 0;
+	padding: 5px 13px 20px 10px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	background: #eee url(../images/lijevo.gif) repeat-x;
+	color: #5D5D5D;
+	line-height: 1.5em;
+}
+
+#desna_rubrika p {
+	margin: 0px;
+	font-size: 90%;
+}
+
+#desna_rubrika h3 {
+	font-size: 9pt;	
+}
+
+#desna_rubrika a {
+	display: block;
+	height: 12px;
+	padding-bottom: 4px;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #ccc;
+}
+
+#podaci {
+	margin: 15px 0 0 0;
+	border: 2px solid #fff;
+	background: #E5EFF9 url(../images/plavo.gif);
+	padding: 3px 3px 3px 6px;
+	color: #70C256;
+}
+
+#podaci a, #podaci a:visited {
+	display: inline;
+	border: none;	
+}
+
+#clanci {
+	float:right; 
+	width:80%;    
+	background: url(../images/clanak.gif) repeat-x bottom left;
+}
+
+#clanci h2 {
+	margin: 0px;
+	padding: 4px 0 4px 0;
+	font-size: 12pt;
+}
+
+#clanci p {
+	margin: 0;
+}
+
+.datum {
+	padding-top: 2px;
+	height: 30px;
+	margin: 5px 0 6px 0;
+	border-top: 1px solid #eee;
+	font-size: 90%;
+	text-transform: uppercase;	
+	color: #808080;
+}
+
+#lijeva_rubrika {
+	margin: 0 250px 20px 155px;
+	border-top: 1px solid #AFCEED;
+	border-bottom: 1px solid #AFCEED;
+	background: #E5EFF9 url(../images/plavo.gif) repeat-x;
+	padding: 5px 6px 5px 6px;
+	line-height: 1.6em;
+	text-align: left;
+	color: #5D5D5D;
+}
+
+#lijeva_rubrika a, #lijeva_rubrika a:visited {
+	text-decoration: underline;	
+}
+
+#lijeva_rubrika h2 {
+	font-size: 1.5em;
+	margin: 0 0 0.5em 0;
+	color: #808080;
+	padding-top: 3px;
+}
+
+#lijeva_rubrika p {
+	padding: 0;
+	margin: 0;
+}
+
+.pie { 
+    padding-top: 150px;
+	clear: both; 
+	text-align: center;
+	color: #808080;
+	background: #f0f0f0;
+	
+	border-top: 1px solid #eee;
+}
+.pie p {	line-height: 2em; }
+.pie a {	color: #4F4F4F; background: #f0f0f0; border-bottom: 1px dotted #808080; text-decoration: none; } 
+
+
+/*-------------Div--------------------------------------------------------------------------------*/
+
+#tb_datos{
+   height: auto;
+   min-height: 340px;	  
+}
+/* ----- tablas ----------------------------------------------------------------------------------- */	
+	
+#tb_login {
+	width:380px;
+	padding:0;
+}
+
+#tb_login td {
+	padding:0px 20px 0px 5px;
+	height:24px;
+}
+
+#tb_login label {
+	padding:3px 10px 0px 0;
+	color:#333;
+	display:block;
+	text-align:right;
+	float:left;
+	width:100px;
+	font:normal 12px tahoma,sans-serif;
+}
+	
+#texto_login {
+	width:280px;
+	margin: 0px auto;
+	padding:10px;
+	display:block;
+	text-align:left;
+	font:normal 12px tahoma,sans-serif;
+}
+	
+#contenido_inicio {
+	width:auto;
+	height:auto;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;
+	display:block;
+	text-align:center;
+	font:normal 12px tahoma,sans-serif;
+}	
+	
+.tb_datos{		
+	background-color:#CDE3FC;
+	line-height:1.2em;
+	border-collapse:collapse;
+	margin:15px 5px 10px 0px;			 
+}
+		
+.tb_datos tr{
+	vertical-align:top;		
+}
+	
+.tb_datos tr:hover {
+	background: #ADD3FA;
+}
+	
+.hilite{
+	background-color: #81BCF8;		
+}
+	
+.tb_datos td{
+	padding:4px 4px 4px 4px;
+	font-size:12px;
+	margin:0;
+	color:#333;
+	border:1px solid #FFFFFF;
+	vertical-align: middle;  /*Para poner el texto en el medio de la fila*/
+}
+	
+.tb_datos td img{
+	margin:0px 0px 0px 0px;		
+	vertical-align: top;
+}
+	
+.tb_datos .encabezado td {
+	background:#4B9FF3;		
+	color:#FFFFFF;
+	padding:4px 4px 4px 8px;	
+	border-bottom:0;
+	text-transform:none;
+	vertical-align:bottom;
+	font:bold 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+td#textoencabezado{
+	background-color:#4B9FF3;
+	color:#81BCF8;
+	padding:4px 4px 4px 8px;	
+	border-bottom:0;
+	text-transform:none;
+	vertical-align:bottom;
+	font:normal 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.tablacheque{		
+	background-color:#CDE3FC;
+	line-height:1.2em;
+	border-collapse:collapse;
+	margin:15px 5px 10px 5px;		
+}
+		
+.tablacheque tr{
+	vertical-align:top;		
+}
+	
+.tablacheque tr:hover {
+	background: #ADD3FA;
+}
+		
+.tablacheque td{
+	padding:4px 4px 4px 4px;
+	font-size:12px;
+	margin:0;
+	color:#333;
+	border:1px solid #FFFFFF;
+	vertical-align: middle;  /*Para poner el texto en el medio de la fila*/
+}
+	
+.tablacheque td img{
+	margin:0px 0px 0px 0px;		
+	vertical-align: top;
+}
+	
+.tablacheque .encabezado td {
+	background:#4B9FF3;		
+	color:#FFFFFF;
+	padding:4px 4px 4px 8px;	
+	border-bottom:0;
+	text-transform:none;
+	vertical-align:bottom;
+	font:bold 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.tablacciones{		
+	background-color:#CDE3FC;
+	line-height:1.2em;
+	border-collapse:collapse;
+	margin:15px 5px 10px 0px;			 
+}
+		
+.tablacciones tr{
+	vertical-align:top;		
+}
+	
+.tablacciones tr:hover {
+	background: #ADD3FA;
+}	
+
+.tablacciones td{
+	padding:4px 4px 4px 4px;
+	font-size:12px;
+	margin:0;
+	color:#333;
+	border:1px solid #FFFFFF;
+	vertical-align: middle;  /*Para poner el texto en el medio de la fila*/
+}
+	
+.tablacciones td img{
+	margin:0px 0px 0px 0px;		
+	vertical-align: top;
+}
+	
+.tablacciones .encabezado td {
+	background:#4B9FF3;		
+	color:#FFFFFF;
+	padding:4px 4px 4px 8px;	
+	border-bottom:0;
+	text-transform:none;
+	vertical-align:bottom;
+	font:bold 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/*--Formularios--*/
+
+.formulario{
+	margin:10 10px 0px 10px;
+	padding:0;
+}
+	
+.formulario td {		
+	height:24px;			
+}
+	
+.formulario label {
+	padding:3px 10px 0px 0;
+	color:#333;
+	display:block;
+	text-align:right;
+	float:left;
+	width:110px;
+	font:normal 12px tahoma,sans-serif;
+}
+
+.formulario input {
+	padding:0px 0 2px 2px;
+	color: #000;
+	float: left;
+	background: #fdfdfd;		
+	border-width:1px;
+	border-style:solid;
+	border-color:#7F9DB9;
+	text-indent:2px;
+	font:normal 12px tahoma,sans-serif;		
+}
+
+.btn {
+	cursor: pointer;
+} 
+	
+.formulario .error img {
+	padding:0px 4px 2px 4px;
+	color: #000;
+	float: left;
+} 
+	
+.formulario select {
+	padding:0px 0 0px 0px;
+	color: #000;
+	float: left;
+	background: #fdfdfd;		
+	border-width:1px;
+	border-style:solid;
+	border-color:#7F9DB9;		
+}
+
+.formulario .error{
+	float: left; 
+	padding: 0px 0px 0px 0px; 
+	border-color: red;		    
+}	
+	
+/* campo de texto y botón para fecha */
+.formulario .campo_texto_fecha {
+	width:110px;		
+}	
+	
+.formulario .btn_calendario {
+	display:inline;
+	padding:2px 0 2px 0px;
+	height:18px;
+	width:20px;
+	margin:0;
+	vertical-align:top;
+	border:0;
+	background-color:transparent;
+}		
+	
+/* ----- fieldset -----*/	
+	
+fieldset {
+	padding:0px 5px 10px 5px;
+	color: #333;
+	margin:0 5px 0 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#C5E0FC;
+	text-indent:2px;		
+}
+
+fieldset legend {
+	color:#69B0F8;
+	font:normal 12px tahoma,sans-serif;
+	padding-left:3px;
+	padding-right:3px;
+	padding-bottom:5px;
+}
+
+fieldset label {
+	color: #81BCF8;
+	padding-left:3px;
+	padding-right:3px;	
+}
+
+fieldset td {
+	vertical-align:top;
+	padding-bottom:5px;
+}
+	
+/* ----- select -----*/	
+
+.select {
+	padding:0px 0 0px 0;
+	color: #333;
+	background: #F7F7EE;
+	border-width:1px;
+	height:18px;
+	border-style:solid;
+	border-color:#7F9DB9;
+	text-indent:2px;
+	font:normal 12px tahoma,sans-serif;
+	width : auto;
+}
+
+.select option {
+		padding:2px 0 2px 4px;
+}	
+	
+/* ----- checkbox ----- */
+	
+.checkbox {	line-height:20px;}
+	
+/*----Botones----*/	
+	
+.boton {
+	display:block;
+	padding:0 10px 0 0;
+	text-align:right;
+	background:transparent url(../images/px_puntos_h.gif) repeat-x scroll 0pt 35%;
+	color:#4B9FF3
+}
+	
+.boton span input {
+	margin:20px 70px 0 0;
+	padding:0px 10px 4px 10px;
+	height:22px;
+	width:auto;
+	vertical-align:middle;
+	text-align:center;
+	letter-spacing:0px;
+	cursor:pointer;		
+}

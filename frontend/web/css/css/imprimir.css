@@ -1,0 +1,114 @@
+/**
+ * imprimir css.
+ *
+ * @package    galeria
+ * @subpackage gestion
+ * @author     Eriot Alberto Cruz Ramos
+ * @version    1.0
+ */
+
+@import url("admin.css");
+@import url("menu_v.css");
+@import url("ui-tabs.css");
+@import url("ui-theme.css");
+@import url("uiall.css");
+	
+#toplinks, #zaglavlje, #navigacija, .pie, .ui-tabs .ui-tabs-nav, #quicksearch, #pagerd, .tb_datos td img, .boton, .btn, #chequeproducto, #chequeficha, .tablacciones, .subcheque, #print, #filecheque{
+	
+	display: none !important;	
+}
+
+body, #sadrzaj, #clanci {
+	
+	float: none !important;
+	width: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+body {
+	font: 7pt Arial, Verdana, Sans-Serif;
+	background: #fff;
+	color: #000;
+}
+
+.ui-tabs {
+   border-color:#fff;
+}
+
+.formulario .btn_calendario {
+	visibility: hidden;
+}		
+
+#subtitulo h1 {	
+	display: none !important;
+}
+
+fieldset {
+	padding:2pt;
+	color: #000;
+	margin:0;
+	border-width:1pt;
+	border-style:solid;
+	border-color:#000;	
+	height:auto;	
+}
+	
+fieldset legend {		
+	color:#000;
+	font:normal 14pt tahoma,sans-serif;
+	padding:3pt;	
+	margin-bottom:3pt;
+}
+	 
+.tb_datos {  	
+	
+    margin: 1pt 0 1pt 0; 
+    background-color:#fff;
+	line-height:1.2em;
+	border-collapse:collapse;  
+	height:auto;
+}
+
+.tb_datos td {    
+	padding:4pt 4pt 4pt 4pt;
+	font-size:10pt;
+	margin:0;
+	color:#fff;
+	border:1px solid #000;
+	vertical-align: middle;   /*Para poner el texto en el medio de la fila*/
+}
+	
+.tb_datos .encabezado td {		
+	background:#fff;		
+	color:#000;
+	padding:4pt 4pt 4pt 8pt;	
+	border-bottom:0;
+	text-transform:none;
+	vertical-align:bottom;
+	font:bold 12pt Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.tablacheque {  	    
+    background-color:#fff;		
+	margin:0pt;	
+	height:auto;
+}
+
+.tablacheque td {    	
+	font-size:7pt;	
+	color:#fff;
+	border:1pt solid #000;
+	vertical-align: middle;   /*Para poner el texto en el medio de la fila*/
+	width: auto;
+}
+	
+.tablacheque .encabezado td  {		
+	background:#fff;		
+	color:#000;	
+	text-transform:none;
+	vertical-align:bottom;
+	font:bold 7pt Tahoma, Arial, Helvetica, sans-serif;
+	width: auto;
+}
+  	

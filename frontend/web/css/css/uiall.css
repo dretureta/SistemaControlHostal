@@ -1,0 +1,66 @@
+/*@import "ui.base.css";
+@import "ui.theme.css";*/
+
+ #busqueda{
+ 	width:100%; 	
+ }
+
+ #pagerd {
+ 	float:right;
+	width:245px;	
+ }
+ 
+ #mio{
+ 	height:5px;
+ }
+ 
+ #pagerd img{ 	
+	margin: 0 2px 0 2px;
+	
+ }
+ 
+ #pagerd img:hover  /*Para cambiar de color*/
+ {
+	cursor:pointer;
+ }	
+ 
+ #pagerd input{
+ 	width:25px;
+	size:25px;
+ }
+ 
+ #quicksearch {
+ 	width: 220px;
+	float:left;
+ }
+
+ #npag {
+ 	width:25px;
+	
+ }
+ 
+ #tpag {
+ 	width:25px;	
+ }
+ 
+ #total{
+	width:25px;	
+ }
+ 
+ #first{
+	vertical-align: middle;
+ }
+ 
+ #prev{
+	vertical-align: middle;
+ }
+ 
+ #next{
+	vertical-align: middle;
+ }
+ 
+ #last{
+	vertical-align: middle;
+ }
+
+

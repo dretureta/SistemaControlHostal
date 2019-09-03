@@ -1,0 +1,23 @@
+
+<script type="text/javascript">
+    // When the document is ready
+    $(document).ready(function () {
+
+        $('#fecha').datepicker({
+            format: "mm/yyyy",
+            viewMode: 1,
+            minViewMode: 2
+        }).on('changeDate', function (e) {
+            $(this).datepicker('hide');
+        });
+
+    });
+
+
+
+    $(document).ready(function () {
+        $('#Tarjeta').tooltip({ trigger: 'hover', title: 'Escriba el No de su tarjeta red. Ej: 9209069990342567', placement: 'top', container: 'body' });
+        $('#nombre').tooltip({ trigger: 'hover', title: 'Escriba el nombre exacto que aparece en su tarjeta red. Ej: PEPE PEREZ RODGZ', placement: 'top', container: 'body' });
+        $('#fecha').tooltip({ trigger: 'hover', title: 'Seleccione año y mes de vencimiento de su tarjeta red.', placement: 'top', container: 'body' });
+        $('#clave').tooltip({ trigger: 'hover', title: 'Escriba su clave.', placement: 'top', container: 'body' });
+    });

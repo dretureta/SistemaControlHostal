@@ -1,0 +1,78 @@
+/**
+ * gestion css.
+ *
+ * @package    galeria
+ * @subpackage menu
+ * @author     Eriot Alberto Cruz Ramos
+ * @version    1.0
+*/
+
+.glossymenu{
+	margin-top: 0px;
+	padding: 0;
+	width: 170px; /*width of menu*/
+	border: 0px solid #9A9A9A;
+	border-bottom-width: 0;
+	text-align:left;
+}
+
+.glossymenu a.menuitem{
+	background: #2489DB; /*color encabezado menu*/
+	font: bold 12px Verdana, Helvetica, sans-serif;
+	color: #FFFFFF;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	width: 170px;
+	padding: 5px 4px 5px 7px;
+	margin: 5px 0 3px; 
+	text-decoration: none;	
+}
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+	color: #FFFFFF; /*color letra encabezado*/
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	border: none;
+}
+
+.glossymenu a.menuitem:hover{
+	background-image: url(../images/bg_encabezado_menu_v.gif); /*color cuando te paras sobre el encabezado del menu*/
+	background: #4B9FF3;
+	cursor:pointer;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+	background: #81BCF8; /*color submenu*/
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+	border-top: 1px solid #E7F2FE; /*color divisiones submenu*/
+	border-bottom: 1px solid #E7F2FE;
+}
+
+.glossymenu div.submenu ul li a{
+	display: block;
+	font: normal 12px Tahoma, Helvetica, sans-serif;
+	color: #333366;
+	text-decoration: none;
+	padding: 3px 0 3px;
+	padding-left: 10px;
+}
+.glossymenu div.submenu ul li a:hover{
+	background: #ADD3FA; /*color movimiento sobre submenu*/
+	color: black;
+}
+.glossymenu div.submenu ul li a:visited{	
+	color:#333366; /*color letras submenu*/	
+}
+

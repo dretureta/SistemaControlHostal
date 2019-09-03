@@ -1,0 +1,208 @@
+input, textarea {
+    color: #373737;
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.625;
+}
+
+
+
+/* Text elements */
+p {
+    margin-bottom: 1.625em;
+}
+
+/* Forms */
+input[type=text],
+input[type=password],
+textarea {
+    background: #fafafa;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    color: #888;
+}
+input[type=text]:focus,
+textarea:focus {
+    color: #373737;
+}
+textarea {
+    padding-left: 3px;
+    width: 98%;
+}
+input[type=text] {
+    padding: 3px;
+}
+input#s {
+    background: url(images/search.png) no-repeat 5px 6px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
+}
+input#searchsubmit {
+    display: none;
+}
+
+
+
+
+/* =Showcase
+----------------------------------------------- */
+
+h1.showcase-heading {
+    color: #666;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 2.6em;
+    text-transform: uppercase;
+}
+
+
+/* Comment Form */
+#respond {
+    background: #ddd;
+    border: 1px solid #d3d3d3;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 auto 1.625em;
+    padding: 1.625em;
+    position: relative;
+    width: 68.9%;
+}
+#respond input[type="text"],
+#respond textarea {
+    background: #fff;
+    border: 4px solid #eee;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(204,204,204,0.95);
+    -moz-box-shadow: inset 0 1px 3px rgba(204,204,204,0.95);
+    box-shadow: inset 0 1px 3px rgba(204,204,204,0.95);
+    position: relative;
+    padding: 10px;
+    text-indent: 53px;
+}
+#respond .comment-form-author,
+#respond .comment-form-email,
+#respond .comment-form-url,
+#respond .comment-form-comment {
+    position: relative;
+}
+#respond .comment-form-author label,
+#respond .comment-form-email label,
+#respond .comment-form-url label,
+#respond .comment-form-comment label {
+    background: #eee;
+    -webkit-box-shadow: 1px 2px 2px rgba(204,204,204,0.8);
+    -moz-box-shadow: 1px 2px 2px rgba(204,204,204,0.8);
+    box-shadow: 1px 2px 2px rgba(204,204,204,0.8);
+    color: #555;
+    display: inline-block;
+    font-size: 13px;
+    left: 4px;
+    min-width: 60px;
+    padding: 4px 10px;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+#respond input[type="text"]:focus,
+#respond textarea:focus {
+    text-indent: 0;
+    z-index: 1;
+}
+#respond textarea {
+    resize: vertical;
+    width: 95%;
+}
+#respond .comment-form-author .required,
+#respond .comment-form-email .required {
+    color: #bd3500;
+    font-size: 22px;
+    font-weight: bold;
+    left: 75%;
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+}
+#respond .comment-notes,
+#respond .logged-in-as {
+    font-size: 13px;
+}
+#respond p {
+    margin: 10px 0;
+}
+#respond .form-submit {
+    float: right;
+    margin: -20px 0 10px;
+}
+#respond input#submit {
+    background: #222;
+    border: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    color: #eee;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 20px 0;
+    padding: 5px 42px 5px 22px;
+    position: relative;
+    left: 30px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+#respond input#submit:active {
+    background: #1982d1;
+    color: #bfddf3;
+}
+#respond #cancel-comment-reply-link {
+    color: #666;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#respond .logged-in-as a:hover,
+#respond #cancel-comment-reply-link:hover {
+    text-decoration: underline;
+}
+.commentlist #respond {
+    margin: 1.625em 0 0;
+    width: auto;
+}
+#respond label {
+    line-height: 2.2em;
+}
+#respond input[type=text] {
+    display: block;
+    height: 24px;
+    width: 75%;
+}
+#respond p {
+    font-size: 12px;
+}
+/* And a full-width comment form */
+#respond {
+    width: auto;
+}
+@media (max-width: 650px) {
+    /* @media (max-width: 650px) Reduce font-sizes for better readability on smaller devices */
+    input, textarea {
+        font-size: 13px;
+    }
+    /* Use the available space in the smaller comment form */
+    #respond input[type="text"] {
+        width: 95%;
+    }
+    #respond .comment-form-author .required,
+    #respond .comment-form-email .required {
+        left: 95%;
+    }
+
+}
+
